@@ -8,10 +8,10 @@ This project aims to develop a decentralised method for multiagent systems by us
 This method works efficiently with any number of vehicles as long as the collision is not between more than 5 vehicles crossing at the same time from a junction.
 
 The messaging format for data communication betwen any local vehicle includes:
-  - 1. Current position of the vehicle
-    2. Current velocity of the vehicle
-    3. Current direction(yaw) of the vehicle
-    4. Assigned Priority value.
+1. Current position of the vehicle
+2. Current velocity of the vehicle
+3. Current direction(yaw) of the vehicle
+4. Assigned Priority value.
 
 The algorithm running on each vehicle takes in these values and finds a new velocity of the vehicle needed to solve this scenario.
 
